@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A526419767CC77E473E2CC3 /* Pods_LottieAnimatonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DB22AE466E7D9BAE584096 /* Pods_LottieAnimatonView.framework */; };
+		553BB5AB26527D90009784D6 /* UIColor+ColorEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 553BB5AA26527D90009784D6 /* UIColor+ColorEx.m */; };
 		557294F5264531CF00F67C33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 557294F4264531CF00F67C33 /* AppDelegate.m */; };
 		557294F8264531CF00F67C33 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 557294F7264531CF00F67C33 /* SceneDelegate.m */; };
 		557294FB264531CF00F67C33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557294FA264531CF00F67C33 /* ViewController.m */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37DB22AE466E7D9BAE584096 /* Pods_LottieAnimatonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimatonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		553BB5A926527D90009784D6 /* UIColor+ColorEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorEx.h"; sourceTree = "<group>"; };
+		553BB5AA26527D90009784D6 /* UIColor+ColorEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorEx.m"; sourceTree = "<group>"; };
 		557294F0264531CF00F67C33 /* LottieAnimatonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimatonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		557294F3264531CF00F67C33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		557294F4264531CF00F67C33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +34,8 @@
 		55729502264531D000F67C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55729504264531D000F67C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55729505264531D000F67C33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C873A272E6F826370AAE554B /* Pods-LottieAnimatonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimatonView.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimatonView/Pods-LottieAnimatonView.release.xcconfig"; sourceTree = "<group>"; };
+		E2FEB4DE6F736C847396268A /* Pods-LottieAnimatonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimatonView.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimatonView/Pods-LottieAnimatonView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A526419767CC77E473E2CC3 /* Pods_LottieAnimatonView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4BE526F31ECC101E9E45B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2FEB4DE6F736C847396268A /* Pods-LottieAnimatonView.debug.xcconfig */,
+				C873A272E6F826370AAE554B /* Pods-LottieAnimatonView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		557294E7264531CF00F67C33 = {
 			isa = PBXGroup;
 			children = (
 				557294F2264531CF00F67C33 /* LottieAnimatonView */,
 				557294F1264531CF00F67C33 /* Products */,
+				3B4BE526F31ECC101E9E45B3 /* Pods */,
+				D6104A126CF00128CEEB4C11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +86,8 @@
 				557294F7264531CF00F67C33 /* SceneDelegate.m */,
 				557294F9264531CF00F67C33 /* ViewController.h */,
 				557294FA264531CF00F67C33 /* ViewController.m */,
+				553BB5A926527D90009784D6 /* UIColor+ColorEx.h */,
+				553BB5AA26527D90009784D6 /* UIColor+ColorEx.m */,
 				557294FC264531CF00F67C33 /* Main.storyboard */,
 				557294FF264531D000F67C33 /* Assets.xcassets */,
 				55729501264531D000F67C33 /* LaunchScreen.storyboard */,
@@ -76,6 +97,14 @@
 			path = LottieAnimatonView;
 			sourceTree = "<group>";
 		};
+		D6104A126CF00128CEEB4C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37DB22AE466E7D9BAE584096 /* Pods_LottieAnimatonView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55729509264531D000F67C33 /* Build configuration list for PBXNativeTarget "LottieAnimatonView" */;
 			buildPhases = (
+				8596BC339BFC41C0E47EB4AE /* [CP] Check Pods Manifest.lock */,
 				557294EC264531CF00F67C33 /* Sources */,
 				557294ED264531CF00F67C33 /* Frameworks */,
 				557294EE264531CF00F67C33 /* Resources */,
+				B8F56E1D2EED52C0AD5FF4DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,11 +171,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8596BC339BFC41C0E47EB4AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieAnimatonView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F56E1D2EED52C0AD5FF4DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieAnimatonView/Pods-LottieAnimatonView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieAnimatonView/Pods-LottieAnimatonView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieAnimatonView/Pods-LottieAnimatonView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		557294EC264531CF00F67C33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553BB5AB26527D90009784D6 /* UIColor+ColorEx.m in Sources */,
 				557294FB264531CF00F67C33 /* ViewController.m in Sources */,
 				557294F5264531CF00F67C33 /* AppDelegate.m in Sources */,
 				55729506264531D000F67C33 /* main.m in Sources */,
@@ -225,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,36 +362,46 @@
 		};
 		5572950A264531D000F67C33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FEB4DE6F736C847396268A /* Pods-LottieAnimatonView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2021042801;
 				DEVELOPMENT_TEAM = LCN239U73A;
 				INFOPLIST_FILE = LottieAnimatonView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samrith.yoeun.LottieAnimatonView;
+				MARKETING_VERSION = 2.2.24;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samrith.yoeun.testlottie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		5572950B264531D000F67C33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C873A272E6F826370AAE554B /* Pods-LottieAnimatonView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2021042801;
 				DEVELOPMENT_TEAM = LCN239U73A;
 				INFOPLIST_FILE = LottieAnimatonView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.samrith.yoeun.LottieAnimatonView;
+				MARKETING_VERSION = 2.2.24;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samrith.yoeun.testlottie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
